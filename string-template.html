@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String template</title>
+</head>
+<body>
+    <script>
+        const nama = "Sakha Ibadil Kirom";
+        const template = `Nama saya ${nama}`;
+
+        document.writeln(template);
+        console.info(template);
+
+        let nilaiUjian = 80;
+        let kelulusan = `Nama : ${nama}, dinyatakan lulus : ${nilaiUjian > 85}`;
+
+        console.info(kelulusan);
+
+        const multiline = `Nama saya Sakha Ibadil Kirom
+        asal dari Indonesia
+        berkuliah di Politeknik Negeri Jakarta
+        jurusan Teknik Informatika`;
+
+        document.writeln("<pre>");
+        document.writeln(multiline);
+        document.writeln("</pre>");
+    </script>
+</body>
+</html>
