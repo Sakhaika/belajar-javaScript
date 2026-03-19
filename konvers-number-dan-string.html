@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi number dan string</title>
+</head>
+<body>
+    <script>
+        const value1 = parseInt("1");
+        const value2 = 1;
+        const sum = value1 + value2;
+
+        document.writeln(`<p>${sum}</p>`);
+
+        const value3 = parseFloat("2.5");
+        const value4 = 4.0;
+        const hasil = value3 + value4;
+
+        document.writeln(`<p>${hasil}</p>`)
+
+        const nilai1 = Number("80");
+        const nilai2 = 90;
+        const jumlah = nilai1 + nilai2;
+
+        document.writeln(`<p>${jumlah}</p>`);
+
+        const number1 = 100;
+        const number2 = "100";
+        const simpulan = number1.toString() + number2;
+
+        document.writeln(`<p>${simpulan}</p>`)
+
+        document.writeln(`<p>${parseInt("sakha13")}`);
+        document.writeln(`<p>${parseFloat("1.3sakha")}`);
+        document.writeln(`<p>${Number("salah")}`);
+
+        const anu = Number("salah");
+        const ini = 100;
+        const adalah = anu + ini;
+
+        document.writeln(`<p>${adalah}</P>`);
+    </script>
+</body>
+</html>
