@@ -11,9 +11,19 @@
 
         object["Nama"] = "Sakha";
         object["No telp"] = 123456;
+        object["alamat"] = "jl indonesia raya";
 
         console.table(object);
-        console.info(`ini isi dari object ${object.Nama}`);
+        console.info(`ini isi dari object ${object["No telp"]}`);
+
+        const saya = {
+            nama: "Sakha",
+            namaTengah: "Ibadil",
+            namaBelakang: "Kirom"
+        };
+
+        console.table(saya);
+        console.info(`nama saya ${saya.nama}`);
     </script>
 </body>
 </html>
