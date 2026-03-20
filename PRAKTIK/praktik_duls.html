@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba - coba</title>
+</head>
+<body>
+    <script>
+        document.writeln("Sakha Ibadil Kirom");
+
+        console.log("saya");
+        console.info("saya");
+        console.warn();
+        console.error();
+
+        document.writeln("<p>Selamat datang di program operasi aritmatika</p>");
+        let angka1 = 5;
+        let angka2 = 7;
+        let hasil = angka1 + angka2;
+
+        document.writeln(`Penjumlahan variabel pertama ${angka1} + variabel kedua ${angka2} ialah ${hasil}`);
+
+        angka1 += 10;
+        document.writeln("<br>");
+        document.writeln("Jika variabel pertama 5 ditambah 10 hasilnya " + angka1);
+
+        let iniArray = (["kirom", "ibadil", "sakha"]);
+        iniArray.push("sakha");
+        iniArray.push("Ibadil", "kirom");
+
+        delete iniArray[2];
+        // iniArray[0] = ("Ayam");
+
+        document.writeln(`<p>Ini merupakan array ${iniArray}</p>`)
+        console.info(iniArray);
+        console.table(iniArray);
+    </script>
+</body>
+</html>
