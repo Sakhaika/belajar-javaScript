@@ -7,13 +7,16 @@
 </head>
 <body>
     <script>
-        const bilangaPertama = 15;
+        const bilangaPertama = 90;
+        const minimal = 75;
 
-        if (bilangaPertama > 15){
+        if (bilangaPertama > minimal){
             document.writeln(true);
-            document.writeln(`<p>Kerja bagus nilai kamu ${bilangaPertama} sudah lebih dari 15</p>`);
+            document.writeln(`<p>Kerja bagus nilai kamu ${bilangaPertama} sudah lebih dari ${minimal}</p>`);
+        } else if (bilangaPertama == minimal) {
+            document.writeln(`<p>Belajar lagi ya dek nilai kamu ${bilangaPertama} masih di bawah dari ${minimal}</p>`);
         } else {
-            document.writeln(`<p>Belajar lagi ya dek nilai kamu ${bilangaPertama} masih di bawah dari 15</p>`);
+            document.writeln(`<p>Maaf nilai kamu kurang dari ${minimal} iyaitu ${bilangaPertama}</p>`);
         }
     </script>
 </body>
