@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch statement</title>
+</head>
+<body>
+    <script>
+        const nilai = "A";
+
+        switch(nilai){
+            case "A":
+                document.writeln(`<p>Selamat anda lulus dengan nilai memuaskan</p>`);
+                break;
+            case "B":
+            case "C":
+                document.writeln(`<p>Selamat anda lulus</p>`);
+                break;
+            case "D":
+                document.writeln(`<p>Anda tidak lulus</p>`);
+                break;
+            default:
+                document.writeln(`Mungkin anda salah jurusan`);
+        }
+    </script>
+</body>
+</html>
